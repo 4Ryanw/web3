@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "myadd",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "number",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidty-by-example/006-Imutable.sol": "Immutable"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidty-by-example/006-Imutable.sol": {
+			"keccak256": "0xf835e1b0e6ae10342c2350a46f1ef1b6e8d721923ece85ba1e559eb6133b7291",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2a28369cb545a6754f62be433c3960536ffe5ba55961e9e259822bc9b7ab70ac",
+				"dweb:/ipfs/Qmd71fyiuamS3xVTizVYWyYFcJy8Zv6JumzNvZx9VXPh8J"
+			]
+		}
+	},
+	"version": 1
+}
