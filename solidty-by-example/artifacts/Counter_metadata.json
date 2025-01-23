@@ -46,7 +46,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidty-by-example/002-function.sol": "Counter"
+			"solidty-by-example/002-Function.sol": "Counter"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -60,7 +60,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidty-by-example/002-function.sol": {
+		"solidty-by-example/002-Function.sol": {
 			"keccak256": "0xa036078119becfe4ce1bbf027d6166b1d81955c832c72b75e72a8e4d679d0fcc",
 			"license": "MIT",
 			"urls": [
