@@ -30,6 +30,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -60,11 +73,11 @@
 	},
 	"sources": {
 		"solidty-by-example/005-Constant.sol": {
-			"keccak256": "0x129dc606859f1a46f5e5fa50891aa3a1bd97dcb044146cc9bcfa00b81cb482ca",
+			"keccak256": "0xbada97e7f23d82480f843236f356c54b5e6b10dfd7f3b01c461b3abef31b1d4f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://932537b5a4dcc9facd582f57fbb0e643b4b9c03c191c74d71333751574d0b29b",
-				"dweb:/ipfs/Qmb5BX5vcT9Yu1LxD932qb6ekgTQAdsiNUSJhuZTwyWLxz"
+				"bzz-raw://7a61b9c3b6928b91f9c09b5de99b34c0efdb7967d39f6f282cf43eb0ecbbbe8a",
+				"dweb:/ipfs/QmTMpzUH3Kwb36tPMKVzvWeFfeCUb1k2Ae8fJF779u6CAu"
 			]
 		}
 	},

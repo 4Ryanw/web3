@@ -11,6 +11,25 @@
 				"type": "constructor"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "ethAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "convertETH2USD",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "fund",
 				"outputs": [],
@@ -86,11 +105,11 @@
 			]
 		},
 		"solidty-by-example/0010-FundMe.sol": {
-			"keccak256": "0x2296799e76487efe4955ce49a92715caf08d58d4c9a35cfbcf890b4af8e85cf8",
+			"keccak256": "0x978c4015eb26a6306d130d75d574815027e24b9fd44979b26c2a32b9b22610e2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://45464f1b3bb32f20666f7c5a5c36243507fb0709947fef8421297eaa3bbe0320",
-				"dweb:/ipfs/QmexL4mwj2cx91pwYCzVsu3KGa39TD4v2uVLgcLTiwEcen"
+				"bzz-raw://8b136c842e044679f152381686e2947b3522623f0b271baa16ae94d5859f8d38",
+				"dweb:/ipfs/QmWUA4fCVcTTPKfkneebngZXRs8ty7ymBC5xv1JbugvKo9"
 			]
 		}
 	},
