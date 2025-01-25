@@ -1,13 +1,13 @@
 {
 	"compiler": {
-		"version": "0.8.28+commit.7893614a"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "str",
+				"name": "sayHello",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -16,6 +16,19 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "newString",
+						"type": "string"
+					}
+				],
+				"name": "setHelloWorld",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -26,13 +39,17 @@
 		},
 		"userdoc": {
 			"kind": "user",
-			"methods": {},
+			"methods": {
+				"sayHello()": {
+					"notice": "1.关键字function,声明这是一个函数 2.函数名 3.入参  4.权限修饰符 见4.1 5.函数功能关键字（view、pure等） 6.若有返回值，关键字returns+返回数据类型 7.存储模式关键字 见4.2"
+				}
+			},
 			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidty-by-example/001-HelloWorld.sol": "HelloWorld"
+			"solidty-by-example/002-Function.sol": "HelloWorld"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -46,12 +63,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidty-by-example/001-HelloWorld.sol": {
-			"keccak256": "0xba8f747aa6f749c8134e00e46b09fbbb6f1634d3151cc56c66f7c1c1c06c6ff9",
+		"solidty-by-example/002-Function.sol": {
+			"keccak256": "0xbb7aa8e4fd8c37910e905f6daa0d05c88e677fe484bdb0fb156393d11797b458",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5bfba9783afd90afb6a8bf55306734f916c26f626017cfa51a5ae0cdfc67939a",
-				"dweb:/ipfs/Qmd6RYLFpz1SyT78CWa9YcPkC8eJMrqkPGAqgFmKGYiCoC"
+				"bzz-raw://5a0e6b0559342c9c803e4dddc5e8259a2fa6898af7f596b75a07806738b5e396",
+				"dweb:/ipfs/QmTduqBjfvGo9JPMK5XHkkqy4qKnp552yjbLqYqGgRacmS"
 			]
 		}
 	},
