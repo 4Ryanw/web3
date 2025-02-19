@@ -8,9 +8,9 @@ contract FundToken{
     string public tokenSymbol;
     //3.发行数量
     uint256 public totalSupply;
-    //4.owner
+    //4.owner 合约的拥有者
     address public owner;
-    //5.balance address->uin256
+    //5.balance address->uin256 记账本
     mapping (address =>uint256) public balances;
 
     constructor(string memory _tokenName,string memory _tokenSymbol){

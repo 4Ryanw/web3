@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addTwo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidty-by-example/012-Extend.sol": "Parent"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidty-by-example/012-Extend.sol": {
+			"keccak256": "0xbeca25dc337a3ca635ec1d7b0f56cdfb0a0ce6e9faee8f0c9e0c8c7c284fea41",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bd67a9ad26a1c78626c2d736c500e11d61686cda7d2de52bc61f26819022780e",
+				"dweb:/ipfs/QmTEHHSK2bKTEZTpSg6u8xaq8vasN5igJypizVHk99wig4"
+			]
+		}
+	},
+	"version": 1
+}

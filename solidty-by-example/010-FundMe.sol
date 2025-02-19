@@ -18,6 +18,8 @@ contract FundMe{
     //unix时间戳标准
     uint256 deploymentTimestamp;
     uint256 lockTime;
+    address erc20Addr;
+    bool public getFundSuccess = false;
     //构造函数 
     constructor(uint256 _lockTime){
         //sepolia 测试网
@@ -81,7 +83,7 @@ contract FundMe{
         // 若调用的函数有返回值则可以将返回值一并返回，并且会返回一个交易成功与否的bool
         bool  success;
           (success,) = payable (msg.sender).call{value: address(this).balance}("");
-
+        getFundSuccess = success;
     }
 
     function refund() external windowClose{
@@ -96,6 +98,16 @@ contract FundMe{
          funderToAmount[msg.sender] = 0;
 
     }
+
+    function setFunderToAmount(address funder ,uint256 amountToUpdate) external  {
+            require(msg.sender == erc20Addr,"You do not have permission to call this function");
+            funderToAmount[funder] = amountToUpdate;
+    }
+
+    function setErc20Add(address _erc20Addr) public ownerOnly{
+        erc20Addr =_erc20Addr;
+    }
+
     modifier windowClose(){
         require(block.timestamp>=deploymentTimestamp+lockTime,"window is not closed");
         _; //下划线的位置表明后续代码执行的顺序和require的优先级

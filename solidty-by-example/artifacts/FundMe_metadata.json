@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.28+commit.7893614a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -83,6 +83,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "getFundSuccess",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "owner",
 				"outputs": [
 					{
@@ -97,6 +110,37 @@
 			{
 				"inputs": [],
 				"name": "refund",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_erc20Addr",
+						"type": "address"
+					}
+				],
+				"name": "setErc20Add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "funder",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amountToUpdate",
+						"type": "uint256"
+					}
+				],
+				"name": "setFunderToAmount",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -151,11 +195,11 @@
 			]
 		},
 		"solidty-by-example/010-FundMe.sol": {
-			"keccak256": "0x5e7a7f304e0c25d174577bcc44b00eab2dc5fb5636c2103a360c3cc4a09f2bb7",
+			"keccak256": "0x640f4444851da8854dc9e9593767b1deff3ff2f7608be92c7409007c5adeacf5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f84dc16f3d38f5cf3ec253798618a120f3dc6775df25ca73b6fd5f777d44da3e",
-				"dweb:/ipfs/QmPYqAYKEtsjDLKbCBxhpnquXraPJywy3ZCGqjLyY492Ar"
+				"bzz-raw://c493dda144bc5cac76c2760a97b5116401ff31e0ae47a8d9a3d62200a7aa372c",
+				"dweb:/ipfs/QmSMNhiPJEtJfW1Ar3ZBneP754Df2gy8EKQo6hCns3XgLN"
 			]
 		}
 	},

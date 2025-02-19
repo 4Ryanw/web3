@@ -171,11 +171,11 @@
 	},
 	"sources": {
 		"solidty-by-example/011-FundToken.sol": {
-			"keccak256": "0x3f90db99d71dea37034ca0135679a1d935e96076a71bcb1cb7ee98c57cb40c7b",
+			"keccak256": "0x1fca9a685508df36a087e5e5c4f815cf6651c53b918f516ab3c13a242c5d5e05",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7ea9b0ce89f5cc451bea6622db1fa09920cbb886135711991f257bca3434349f",
-				"dweb:/ipfs/QmeepVwVyfZWrpF56EFYPQ6uDz9SgHHqSvW3kH82xcrCmx"
+				"bzz-raw://046256b61b54b73bd187c41ec2a5e83561b2e87a86397d0857f3368fed211be5",
+				"dweb:/ipfs/QmXSeZqueNkpsfbv2Mgr88FwVebRoUjaoVpQKnQjSA2KFV"
 			]
 		}
 	},
