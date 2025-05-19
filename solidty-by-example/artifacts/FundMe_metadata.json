@@ -172,7 +172,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidty-by-example/010-FundMe.sol": "FundMe"
+			"solidty-by-example/013-FundTokenErc20_flattened.sol": "FundMe"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -186,20 +186,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol": {
-			"keccak256": "0x257a8d28fa83d3d942547c8e129ef465e4b5f3f31171e7be4739a4c98da6b4f0",
+		"solidty-by-example/013-FundTokenErc20_flattened.sol": {
+			"keccak256": "0xdd12ce30432ce5a9ca8bff87b96e08558d4a5c9d4df2f5335623b0c27bb1b6a7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6d39e11b1dc7b9b8ccdabbc9be442ab7cda4a81c748f57e316dcb1bcb4a28bf9",
-				"dweb:/ipfs/QmaG6vz6W6iEUBsbHSBob5mdcitYxWjoygxREHpsJHfWrS"
-			]
-		},
-		"solidty-by-example/010-FundMe.sol": {
-			"keccak256": "0x640f4444851da8854dc9e9593767b1deff3ff2f7608be92c7409007c5adeacf5",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://c493dda144bc5cac76c2760a97b5116401ff31e0ae47a8d9a3d62200a7aa372c",
-				"dweb:/ipfs/QmSMNhiPJEtJfW1Ar3ZBneP754Df2gy8EKQo6hCns3XgLN"
+				"bzz-raw://a3b450d883b25d7c95b56fd643a23246026af93323fedb1561bb899161d733f2",
+				"dweb:/ipfs/QmPBXceQrpfa6uVr6hxCTZKvZYGCp7LzHYSj4HC6FuSLd8"
 			]
 		}
 	},

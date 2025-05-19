@@ -1,0 +1,137 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_messageHash",
+						"type": "bytes32"
+					}
+				],
+				"name": "getEthSignedMessageHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					}
+				],
+				"name": "getMessageHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_ethSignedMessageHash",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_sig",
+						"type": "bytes"
+					}
+				],
+				"name": "recover",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_signer",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_sig",
+						"type": "bytes"
+					}
+				],
+				"name": "verify",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidty-by-example/014-SecurityHash.sol": "VerifySig"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidty-by-example/014-SecurityHash.sol": {
+			"keccak256": "0x9dc419bf21c6b169833c84ce10878b20381f93f65ffd7a4e3e50225ff11fb674",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://92dc2afadd171ec9e6c9d905c1f16439ca85ec0cb058c416014f45c4ecda092c",
+				"dweb:/ipfs/QmdDQH1FcjTx7f4mtDQ5xnNqhHpp7kDiWb1MMJFK5qNq8N"
+			]
+		}
+	},
+	"version": 1
+}

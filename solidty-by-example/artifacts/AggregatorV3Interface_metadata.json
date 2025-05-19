@@ -1,0 +1,157 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "decimals",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "description",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint80",
+						"name": "_roundId",
+						"type": "uint80"
+					}
+				],
+				"name": "getRoundData",
+				"outputs": [
+					{
+						"internalType": "uint80",
+						"name": "roundId",
+						"type": "uint80"
+					},
+					{
+						"internalType": "int256",
+						"name": "answer",
+						"type": "int256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "startedAt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "updatedAt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint80",
+						"name": "answeredInRound",
+						"type": "uint80"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "latestRoundData",
+				"outputs": [
+					{
+						"internalType": "uint80",
+						"name": "roundId",
+						"type": "uint80"
+					},
+					{
+						"internalType": "int256",
+						"name": "answer",
+						"type": "int256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "startedAt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "updatedAt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint80",
+						"name": "answeredInRound",
+						"type": "uint80"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "version",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidty-by-example/013-FundTokenErc20_flattened.sol": "AggregatorV3Interface"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidty-by-example/013-FundTokenErc20_flattened.sol": {
+			"keccak256": "0xdd12ce30432ce5a9ca8bff87b96e08558d4a5c9d4df2f5335623b0c27bb1b6a7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a3b450d883b25d7c95b56fd643a23246026af93323fedb1561bb899161d733f2",
+				"dweb:/ipfs/QmPBXceQrpfa6uVr6hxCTZKvZYGCp7LzHYSj4HC6FuSLd8"
+			]
+		}
+	},
+	"version": 1
+}
